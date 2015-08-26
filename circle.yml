@@ -2,9 +2,10 @@ test:
  override:
   - whoami
   - hostname
+  - touch file
 deployment:
  production:
   branch: myApp
   commands:
-   - touch myFile
+   - whoami
     
