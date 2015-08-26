@@ -4,4 +4,4 @@ test:
     - hostname
 deployment:
   commands:
-    - python env.py
+    - ./env.py
