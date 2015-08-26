@@ -1,3 +1,7 @@
 test:
   override:
     - whoami
+    - hostname
+deployment:
+  commands:
+    - python env.py
