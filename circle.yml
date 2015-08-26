@@ -1,9 +1,9 @@
 test:
-  override:
-    - whoami
-    - hostname
+ override:
+  - whoami
+  - hostname
 deployment:
-  production:
-    branch: myApp
-	commands:
-     - python env.py 
+ production:
+  branch: myApp
+  commands:
+   - python env.py 
