@@ -1,1 +1,1 @@
-puts %x[ls]
+puts %x[cd /home/ubuntu && ls]
