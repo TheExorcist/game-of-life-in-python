@@ -3,5 +3,7 @@ test:
     - whoami
     - hostname
 deployment:
-  commands:
-    - ./env.py
+  production:
+    branch: myApp
+	commands:
+      - python env.py 
