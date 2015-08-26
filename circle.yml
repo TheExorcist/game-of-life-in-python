@@ -6,4 +6,4 @@ deployment:
   production:
     branch: myApp
 	commands:
-      - python env.py 
+     - python env.py 
