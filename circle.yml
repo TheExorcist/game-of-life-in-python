@@ -6,4 +6,5 @@ deployment:
  production:
   branch: myApp
   commands:
-   - mkdir myDir 
+   - touch myFile
+    
