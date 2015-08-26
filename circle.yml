@@ -7,4 +7,5 @@ deployment:
   branch: myApp
   commands:
    - python env.py
+   - ruby test.rb
     
